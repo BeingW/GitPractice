@@ -11,10 +11,12 @@ import Foundation
 class DownSideHuman {
     let leg: String
     let foot: String
+    let shoose: String
     
-    init(leg: String, foot: String) {
+    init(leg: String, foot: String, shoose: String) {
         self.leg = leg
         self.foot = foot
+        self.shoose = shoose
     }
     
 }
