@@ -13,10 +13,10 @@ class DownSideHuman {
     let foot: String
     let shoose: String
     
-    init(leg: String, foot: String) {
+    init(leg: String, foot: String, shoose: String) {
         self.leg = leg
         self.foot = foot
-        self.shoose = "Shoose"
+        self.shoose = shoose
     }
     
 }
