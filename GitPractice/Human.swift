@@ -9,11 +9,14 @@
 import Foundation
 
 class Human {
-    let head: String
-    let arm: String
+    let body: String = "Body"
+    let upperSideHuman: UpperSideHuman
     
-    init(head: String, arm: String) {
-        self.head = head
-        self.arm = arm
+    init() {
+        self.upperSideHuman = UpperSideHuman(head: "Head", arm: "Arm")
+    }
+
+    func connectBodyWithUpperPartObject() {
+        
     }
 }
